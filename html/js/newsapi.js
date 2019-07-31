@@ -1,6 +1,6 @@
 $(document).ready(function(){             //jQuery
     $("#load").hide();
-    $("#cat").click(function(){
+    $("#cat").click(function(){            //!!!!!use onchange
         $("#tech").click(function(){
             $.ajax({                        //AJAX format
                 type:"GET",                 //type mentions the method to be used 
